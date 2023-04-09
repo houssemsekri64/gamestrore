@@ -12,7 +12,6 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.9.0",
     "@strapi/plugin-users-permissions": "4.9.0",
-    "@strapi/provider-upload-cloudinary": "^4.9.0",
     "@strapi/strapi": "4.9.0",
     "pg": "8.8.0",
     "strapi-plugin-cloudflare-pages": "^0.4.1"
@@ -24,7 +23,7 @@
     "uuid": "9ac5f715-a7df-4735-ba1d-68824b1504d9"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=14.19.1 <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
