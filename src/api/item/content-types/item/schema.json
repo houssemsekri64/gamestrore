@@ -14,12 +14,32 @@
     "name": {
       "type": "string"
     },
+    "shortDescription": {
+      "type": "richtext"
+    },
+    "longDescrption": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "decimal"
+    },
     "image": {
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos",
+        "audios"
       ],
       "type": "media",
       "multiple": false
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "newArrivals",
+        "bestSellers",
+        "topRated"
+      ]
     }
   }
 }
