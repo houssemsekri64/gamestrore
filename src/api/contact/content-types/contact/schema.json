@@ -20,7 +20,7 @@
     "message": {
       "type": "richtext"
     },
-    "longDescrption": {
+    "email": {
       "type": "richtext"
     },
     "phone": {
