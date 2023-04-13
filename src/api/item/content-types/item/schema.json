@@ -23,23 +23,17 @@
     "price": {
       "type": "decimal"
     },
+    "video": {
+      "type": "string"
+    },
     "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
+      "allowedTypes": ["images", "files", "videos", "audios"],
       "type": "media",
       "multiple": false
     },
     "category": {
       "type": "enumeration",
-      "enum": [
-        "newArrivals",
-        "bestSellers",
-        "topRated"
-      ]
+      "enum": ["newArrivals", "bestSellers", "topRated"]
     }
   }
 }
